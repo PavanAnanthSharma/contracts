@@ -91,7 +91,7 @@ module.exports = {
     bail: false,
     reporter: 'eth-gas-reporter',
     reporterOptions: {
-      currency: 'USD',
+      currency: 'USD', 
       gasPrice: 21,
       outputFile: '/dev/null',
       showTimeSpent: true
